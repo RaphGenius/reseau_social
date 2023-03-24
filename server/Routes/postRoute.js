@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import { Post } from "../models/postModel.js";
+
 import {
   createPost,
   deletePost,
@@ -24,4 +24,4 @@ router.delete("/:id", deletePost);
 //Modify one post
 router.put("/:id", updatePost);
 
-export default router;
+export const routerPost = router;

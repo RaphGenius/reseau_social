@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 const postSchema = mongoose.Schema(
   {
     userId: { type: String, required: false },
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: false },
+    pseudo: { type: String, required: true },
     content: { type: String, required: false },
     imageUrl: { type: String, required: false },
     likes: { type: Number, default: 0 },
