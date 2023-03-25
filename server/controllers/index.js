@@ -3,4 +3,17 @@ import getAllPost from "./postController/getAllPost.js";
 import getOnePost from "./postController/getOnePost.js";
 import deletePost from "./postController/deletePost.js";
 import updatePost from "./postController/updatePost.js";
-export { createPost, getAllPost, getOnePost, deletePost, updatePost };
+import signup from "./userController/signup.js";
+import login from "./userController/login.js";
+import getProfil from "./userController/getProfil.js";
+
+export {
+  createPost,
+  getAllPost,
+  getOnePost,
+  deletePost,
+  updatePost,
+  signup,
+  login,
+  getProfil,
+};
