@@ -1,0 +1,16 @@
+Navbar à gauche
+
+Un faux logo en haut
+sticky 
+
+Bouton home 
+Si deja sur /home => Back to top 
+Sinon back sur /home
+
+Bouton qui affiche tous les utilisateurs
+
+Bouton acces au profil 
+L'ensemble de mes postes
+
+Paramettre
+CHanger photo, changer mot de passe, darkmode 
